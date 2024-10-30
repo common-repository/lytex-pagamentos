@@ -1,0 +1,110 @@
+# Copyright (C) 2019 Claudio Sanches
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lytex Pagamentos 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-extra-"
+"checkout-fields-for-brazil\n"
+"POT-Creation-Date: 2022-10-05 10:35-0300\n"
+"PO-Revision-Date: 2022-10-05 10:35-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: api/api_service.php\n"
+"X-Poedit-SearchPath-1: api/class-api-lytex.php\n"
+"X-Poedit-SearchPath-2: class-lytex-payments.php\n"
+"X-Poedit-SearchPath-3: includes/function.php\n"
+"X-Poedit-SearchPath-4: includes/libs/LytexValidate.php\n"
+"X-Poedit-SearchPath-5: lytex-pagamentos.php\n"
+"X-Poedit-SearchPath-6: templates/lytex-checkout.php\n"
+"X-Poedit-SearchPath-7: templates/lytex-hdn-checkout.php\n"
+"X-Poedit-SearchPath-8: templates/order-received.php\n"
+"X-Poedit-SearchPath-9: templates/views/modal_duplicate_ticket.php\n"
+"X-Poedit-SearchPath-10: templates/views/modal-admin.php\n"
+
+#: class-lytex-payments.php:134
+msgid "Paid"
+msgstr "Pago"
+
+#: class-lytex-payments.php:138
+msgid "cancelled"
+msgstr "Cancelado"
+
+#: class-lytex-payments.php:357
+msgid "The selected payment method does not exist."
+msgstr "A forma de pagamento selecionada não existe."
+
+#: class-lytex-payments.php:361
+msgid "Full name is required."
+msgstr "O nome completo é obrigatório."
+
+#: class-lytex-payments.php:365
+msgid "The selected person type does not exist."
+msgstr "O tipo de pessoa selecionado não existe."
+
+#: class-lytex-payments.php:369
+msgid "Enter a valid CPF/CNPJ."
+msgstr "Insira um CPF/CNPJ válido."
+
+#: class-lytex-payments.php:373
+msgid "Please enter a valid phone number."
+msgstr "Por favor insira um número de telefone válido."
+
+#: class-lytex-payments.php:377
+msgid "Enter a valid email address."
+msgstr "Digite um endereço de e-mail válido."
+
+#: class-lytex-payments.php:381
+msgid "Enter an existing zip code."
+msgstr "Insira um CEP existente."
+
+#: class-lytex-payments.php:385
+msgid "Select an existing state."
+msgstr "Selecione um estado existente."
+
+#: class-lytex-payments.php:389
+msgid "Enter the full address."
+msgstr "Selecione um estado existente."
+
+#: class-lytex-payments.php:393
+msgid "Enter the address number."
+msgstr "Digite o número do endereço."
+
+#: class-lytex-payments.php:397
+msgid "Enter the city."
+msgstr "Escolha a cidade."
+
+#: class-lytex-payments.php:401
+msgid "Enter the neighborhood."
+msgstr "Escolha o bairro."
+
+#: class-lytex-payments.php:500
+msgid "Billet Banking - Lytex Pagamentos"
+msgstr "Boleto Bancário - Lytex Pagamentos"
+
+#: class-lytex-payments.php:501 class-lytex-payments.php:512
+msgid "Awaiting online payment"
+msgstr "Aguardando pagamento online"
+
+#: class-lytex-payments.php:511
+msgid "PIX - Lytex Pagamentos"
+msgstr "PIX - Lytex Pagamentos"
+
+#: class-lytex-payments.php:543
+msgid "Sandbox mode is activated, invoices created must not be paid."
+msgstr "O modo Sandbox está ativado, as faturas criadas não devem ser pagas."
+
+#: lytex-pagamentos.php:31
+msgid ""
+"The minimum PHP version compatible with Lytex Pagamentos plugin is 7.0.0. "
+"Please, update your PHP version."
+msgstr ""
+"A versão mínima do PHP compatível com o plugin Lytex Pagamentos é 7.0.0. Por "
+"favor, atualize sua versão do PHP."

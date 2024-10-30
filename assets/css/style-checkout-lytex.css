@@ -1,0 +1,103 @@
+.lypay_checkout-pannel {
+    --lypay-white: #fff;
+    --lypay-lightgray: #B0B0B0;
+    --lypay-slightgray: #DBDBDB;
+    --lypay-red: #F00;
+    --lypay-logo-blue: #27899E;
+    --lypay-logo-darkblue: #5479AF;
+}
+
+.lypay_checkout-pannel {
+    background-color: var(--lypay-white);
+    padding: 15px;
+    border: 2px var(--lypay-lightgray) solid;
+    border-radius: 3px;
+}
+
+.lypay_radio-option {
+    width: 100%;
+    padding-left: 15px;
+    height: 50px;
+    background: var(--lypay-slightgray);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 2px var(--lypay-lightgray) solid;
+    border-radius: 3px;
+}
+
+.lypay_radio-option:not(.lypay_selected){
+    background-color: var(--lypay-white);
+    cursor: pointer;
+}
+
+.lypay_radio-option > input[type=radio]:checked {
+    background-color: var(--lypay-logo-darkblue);
+    border-color: var(--lypay-logo-darkblue);
+}
+
+.lypay_radio-option > input[type=radio]:checked:before {
+    background-color: var(--lypay-logo-darkblue);
+}
+
+.lypay_radio-option:hover > input[type=radio]:checked {
+    background-color: var(--lypay-logo-darkblue);
+    border-color: var(--lypay-logo-darkblue);
+}
+
+.lypay_radio-option:hover > input[type=radio] {
+    background-color: var(--lypay-logo-blue);
+    border-color: var(--lypay-logo-blue);
+}
+
+span.required {
+    color: var(--lypay-red);
+}
+
+.lypay_form_hide {
+    display: none;
+}
+
+.lypay_form_show {
+    display: block;
+}
+
+.lypay_form-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lypay_form-group select, .lypay_field-wrapper select{
+    border-radius: 3px;
+    padding: 0.375rem 0;
+}
+
+.lypay_field-wrapper--half{
+    width: 48%;
+}
+
+.lypay_field-wrapper--expire{
+    width: 45%;
+}
+
+.lypay_pannel-option__text{
+    flex-grow: 1;
+}
+input[name="lypay_finalPaymentMethod"] {
+    margin: 0 !important;
+}
+.lypay_pannel-option__text label {
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    display: block !important;
+}
+
+.lypay-credit_card label{
+    display: flex;
+}
+.lypay-credit_card input{
+    display: flex;
+    width: 100%;
+}
